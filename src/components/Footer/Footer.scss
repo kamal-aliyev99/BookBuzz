@@ -1,0 +1,8 @@
+@import '../../styles/general.scss';
+
+footer{
+    @extend %flex-center;
+    background-color: $color-skyBlue;
+    width: 100%;
+    height: 4rem;
+}

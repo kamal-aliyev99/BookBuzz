@@ -1,0 +1,14 @@
+// Variables
+
+$color-black: #000000;
+$color-white: #ffffff;
+$color-darkGray: #333333;
+$color-gray: #CBCFCF;
+$color-skyBlue: #E8F0FE;
+
+
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

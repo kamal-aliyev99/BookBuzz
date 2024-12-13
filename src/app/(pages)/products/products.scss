@@ -1,0 +1,10 @@
+@import '../../../styles/general.scss';
+
+.productsContainer{
+    margin-block: 2rem 8rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(33rem, 1fr));
+    justify-items: center;
+    gap: 2.4rem 2rem;
+}

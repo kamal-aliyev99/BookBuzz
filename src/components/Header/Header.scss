@@ -1,0 +1,21 @@
+@import '../../styles/general.scss';
+
+.header{
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+
+    &__control{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        .nav{
+            display: flex;
+            gap: 2rem;
+            font-size: 1.8rem;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@import '../../styles/general.scss';
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    background-color: $color-skyBlue;
+    color: $color-black;
+    width: min(100%, 33rem);
+    height: 38rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    position: relative;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    &__img{
+        width: 100%;
+        height: 20rem;
+        overflow: hidden;
+        border-radius: 0.8rem;
+    }
+
+    &__title{
+        font-size: 2rem;
+    }
+
+    &__like{
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+    }
+}

@@ -1,0 +1,19 @@
+@import '../../styles/general.scss';
+
+.userLogo{
+    @extend %flex-center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border: 1px solid $color-black;
+    border-radius: 50%;
+    position: relative;
+   
+    .logout{
+        width: max-content;
+        position: absolute;
+        top: calc(100% + 1rem);
+        background-color: $color-skyBlue;
+        padding: 0.4rem 1rem;
+        border: 1px solid $color-black;
+    }
+}

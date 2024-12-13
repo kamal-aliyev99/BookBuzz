@@ -1,0 +1,10 @@
+@import '../../styles/general.scss';
+
+.btn{
+    @extend %flex-center;
+    padding: 0.4rem 1rem;
+    background-color: $color-black;
+    color: $color-white;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+}

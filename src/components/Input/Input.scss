@@ -1,0 +1,16 @@
+@import '../../styles/general.scss';
+
+.mainInput{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.6rem;
+    background-color: $color-skyBlue;
+
+    &__input{
+
+    }
+    &__btn{
+        @extend %flex-center
+    }
+}

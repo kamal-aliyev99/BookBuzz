@@ -1,0 +1,42 @@
+@import '../../styles/general.scss';
+
+.detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+
+    > *{
+        flex: 1;
+    }
+
+    &__img{
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        border-radius: 2rem;
+        overflow: hidden;
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap: 1.4rem;
+
+        &--checkout{
+            width: max-content;
+        }
+    }
+
+    .counter{
+        display: flex;
+        gap: 1rem;
+        font-size: 2rem;
+
+        > button{
+            background-color: $color-skyBlue;
+            width: 2.2rem;
+            height: 2.2rem;
+            border-radius: 50%;
+        }
+    }
+}
